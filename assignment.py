@@ -1,4 +1,5 @@
 # Assignment Name: Scholarship Eligibility Checker
+
 """
 Thursday Individual Assignment
 Build a tested decision application.
@@ -15,3 +16,9 @@ Build a tested decision application.
 • Make at least 3 meaningful Git commits.
 • Write a short note explaining one bug you found and how you fixed it.
 """
+
+# INPUT
+first_name = input("Enter First Name: ")
+last_name = input("Enter Last Name: ")
+level_of_study = int(input("Current Level: "))
+cummulative_grade_point = float(input("Current CGPA: "))
